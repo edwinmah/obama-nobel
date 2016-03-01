@@ -144,12 +144,19 @@ a:focus {
 }
 
 /* Photo and Video */
+.photo.float--right,
 .photo.float--left {
-  padding-right: 1.25em;
+  padding-right: 0;
 }
 
-.photo.float--right {
-  padding-left: 1.25em;
+@media (min-width: 43.75em) {
+  .photo.float--left {
+    padding-right: 1.25em;
+  }
+  
+  .photo.float--right {
+    padding-left: 1.25em;
+  }  
 }
 
 .photo img {
