@@ -144,6 +144,10 @@ a:focus {
 }
 
 /* Photo and Video */
+.photo {
+  margin-bottom: 1.5em;
+}
+
 .photo.float--right,
 .photo.float--left {
   padding-right: 0;
